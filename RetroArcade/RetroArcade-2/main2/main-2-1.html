@@ -14,7 +14,7 @@
     <div class="container">
         <header class="top-bar">
             <div class="logo-title">
-                <div onclick="navigateToGame('/RetroArcade-1/main1/main.html')">
+                <div onclick="navigateToGame('../../index')">
                     <img src="logo.png" alt="Logo" class="logo" />
                 </div>
                 <h1 class="title">Subway Surfers</h1>
@@ -93,8 +93,8 @@
         </div>
     </div>
     <script>
-        function navigateToGame(gameName) {
-            window.location.href = '/RetroArcade-1/main1/main.html';
+        function navigateToGame(gameId) {
+            window.location.href = gameId + '.html';
         }
         function navigateToGameLink(url) {
             window.open(url, 'https://poki.com/kr/g/subway-surfers#utm_source=redirect-en-ko');

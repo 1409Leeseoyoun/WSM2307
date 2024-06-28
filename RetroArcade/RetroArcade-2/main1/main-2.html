@@ -14,7 +14,7 @@
     <div class="container">
         <header class="top-bar">
             <div class="logo-title">
-                <div onclick="navigateToGame('/RetroArcade-1/main1/main.html')">
+                <div onclick="navigateToGame('../../index')">
                     <img src="logo.png" alt="Logo" class="logo" />
                 </div>
                 <h1 class="title">철권</h1>
@@ -38,7 +38,8 @@
                             <p class="font">1994.12.09 출시 | 시즌 8개</p>
                         </div>
                         <div class="play-now">
-                            <div onclick="navigateToGameLink('https://store.steampowered.com')" class="play-content">Play Now</div>
+                            <div onclick="navigateToGameLink('https://store.steampowered.com')" class="play-content">
+                                Play Now</div>
                             <i class="bi bi-caret-right-fill"></i>
                         </div>
                     </div>
@@ -95,10 +96,10 @@
         </div>
     </div>
     <script>
-        function navigateToGame(gameName) {
-            window.location.href = '/RetroArcade-1/main1/main.html';
+        function navigateToGame(gameId) {
+            window.location.href = gameId + '.html';
         }
-        
+
         function navigateToGameLink(url) {
             window.open(url, 'https://store.steampowered.com');
         }
