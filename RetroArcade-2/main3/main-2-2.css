@@ -208,7 +208,7 @@ div .story2 {
 .reviews {
     display: flex;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 35px;
     flex-direction: row;
     flex-wrap: wrap;
     /* 필요한 경우 줄바꿈을 허용 */
@@ -251,7 +251,7 @@ h2 {
 .related-games {
     cursor: pointer;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 35px;
     margin-bottom: 35px;
 }
 
@@ -273,6 +273,7 @@ h2 {
 .related-game img {
     width: 100px;
     height: 100px;
+    margin: 5px;
 }
 
 .stars {
@@ -376,7 +377,8 @@ h2 {
         width: 170px;
         /* margin-right: 100px; */
     }
-    .game-logo{
+
+    .game-logo {
         border-bottom: 1px solid rgb(120, 120, 120);
         padding-bottom: 15px;
     }
@@ -412,12 +414,12 @@ h2 {
         margin-top: 10px;
         font-size: 17.5px;
     }
-    
+
     .play-content {
         position: relative;
         top: 3.7px;
     }
-    
+
     .play-now i {
         font-size: 23px;
         position: relative;
@@ -430,13 +432,15 @@ h2 {
 
     div.story2 {
         display: block;
-        margin: 20px 40px;
+        margin-left: 35px;
+        margin-right: 20px;
+        margin-top: 0px;
     }
 
     .details-link2 {
         display: block;
         width: 135px;
-        margin-left: 40px;
+        margin-left: 35px;
     }
 
     .details-link {
@@ -460,6 +464,7 @@ h2 {
         flex-direction: column;
         padding-top: 0px;
     }
+
     .game-logo {
         border-bottom: none;
     }
@@ -516,6 +521,7 @@ h2 {
         height: auto;
         width: 90%;
         margin-left: 30px;
+        margin-bottom: 20px;
     }
 
     .FireWater {
@@ -635,6 +641,22 @@ h2 {
 @media (max-width: 470px) {
     .game-container {
         margin-left: 23px;
+    }
+
+    div .story2 {
+        margin-left: 27px;
+    }
+
+    .details-link2 {
+        margin-left: 27px;
+    }
+
+    .reviews {
+        margin-left: 27px;
+    }
+
+    .related-games {
+        margin-left: 27px;
     }
 }
 
